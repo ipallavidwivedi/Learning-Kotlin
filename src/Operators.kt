@@ -6,4 +6,9 @@ fun main(){
     println("$num1 - $num2 = ${num1 - num2}")
     println("$num1 * $num2 = ${num1 * num2}")
     println("$num1 / $num2 = ${num1 / num2}")
+
+    // to declare the decimal number
+    var decimalNum: Float = 12.34F //this is a float number
+    var doubleNum = 20.4567 //this is a double number
+    println("$doubleNum + $decimalNum = ${doubleNum + decimalNum}")
 }
