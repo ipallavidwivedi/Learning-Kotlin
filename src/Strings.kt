@@ -7,6 +7,7 @@ fun main(){
     println("${str.subSequence(2,6)}")
     println("${str.equals("Pallavi")}")
 
+    // Conditional and Logical operators
     val x = 9
     val y = 3
     val z = 9
