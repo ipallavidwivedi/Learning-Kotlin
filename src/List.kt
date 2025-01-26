@@ -22,7 +22,7 @@ fun main(){
             userList.add(userInput)
         }
     }
-
+    //printing list in reverse order
     for(j in 4 downTo 0){
         println(userList[j])
     }
