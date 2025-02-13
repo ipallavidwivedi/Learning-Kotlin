@@ -9,6 +9,7 @@ fun main(){
     //Passing second parameter as well
     defaultTesting("Jatin", "Sharma")
     // you can also pass these parameters by naming them
+    // named parameters
     defaultTesting(firstname = "Kartik", lastName = "Dwivedi")
 }
 

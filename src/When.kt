@@ -1,7 +1,7 @@
 fun main(){
     //Using When to check for multiple cases on single variable
     println("Enter you age:")
-    val age = readLine()?.toInt()
+    val age = readlnOrNull()?.toInt()
 
     when(age){
         in 1..10 -> println("Hey, You're a child")
